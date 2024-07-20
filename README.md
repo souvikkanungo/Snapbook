@@ -27,6 +27,7 @@ MongoDB
 JWT (JSON Web Tokens)
 
 Others:
+
 CSS styling
 Mongoose for MongoDB interactions
 
