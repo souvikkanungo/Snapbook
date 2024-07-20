@@ -8,12 +8,14 @@ This web application is built using the MERN stack (MongoDB, Express, React, Nod
 
 Features
 
-Authentication:
+Authentication:Secure user authentication using JWT (JSON Web Tokens).
 
-Secure user authentication using JWT (JSON Web Tokens).
 State Management: Efficient state management with Context API.
+
 Custom Hooks: Utilization of custom hooks to streamline component logic and reuse.
+
 React Calendar: Integrated React calendar for event scheduling and management.
+
 CRUD Operations: Full Create, Read, Update, Delete functionality for data management.
 
 
