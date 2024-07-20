@@ -9,7 +9,7 @@ This web application is built using the MERN stack (MongoDB, Express, React, Nod
 
 Features
 
-Authentication:Secure user authentication using JWT (JSON Web Tokens).
+Authentication: Secure user authentication using JWT (JSON Web Tokens).
 
 State Management: Efficient state management with Context API.
 
