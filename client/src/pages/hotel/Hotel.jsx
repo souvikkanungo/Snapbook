@@ -25,7 +25,7 @@ const Hotel = () => {
   const [openModal, setOpenModal] = useState(false);
 
   const { data, loading, error } = useFetch(
-    `http://localhost:8800/api/hotels/find/${id}` //errorprone
+    `http://localhost:8800/api/hotels/find/${id}`
   );
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
@@ -54,6 +54,7 @@ const Hotel = () => {
     } else {
       newSlideNumber = slideNumber === 5 ? 0 : slideNumber + 1;
     }
+
     setSlideNumber(newSlideNumber);
   };
 
@@ -61,10 +62,9 @@ const Hotel = () => {
     if (user) {
       setOpenModal(true);
     } else {
-      navigate("/login"); //errorprone
+      navigate("/login");
     }
   };
-
   return (
     <div>
       <Navbar />
