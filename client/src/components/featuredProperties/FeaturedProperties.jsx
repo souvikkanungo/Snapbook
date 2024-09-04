@@ -3,7 +3,7 @@ import useFetch from "../../hooks/useFetch";
 
 const FeaturedProperties = () => {
   const { data, loading, error } = useFetch(
-    "http://localhost:8800/api/hotels?featured=true"//errorprone
+    "https://snapbook.onrender.com/api/hotels?featured=true"
   );
 
   return (
@@ -18,7 +18,7 @@ const FeaturedProperties = () => {
               <span className="fpName">{item.name}</span>
               <span className="fpCity">{item.city}</span>
               <span className="fpPrice">
-                Starting from &#x20b9;{item.cheapestPrice}
+                Starting from ${item.cheapestPrice}
               </span>
               {item.rating && (
                 <div className="fpRating">
